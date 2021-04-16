@@ -41,6 +41,36 @@ margin:5% 0 5% 0 ;
 .contact{
 
     background-image: url('./assets/backgrounds/c_image.jpg');
-    height: 30vh;
+    height: 40vh;
     width: 100%;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+    }
+    .contact input{
+        opacity: 0.1;
+        border:2px solid white;
+        color: white;
+    }
+
+    .designText, .devText, .productText{
+        display: none;
+    }
+
+   
+    .portfolio{
+        box-sizing: border-box;
+        width: 100%;
+        width: 70vw;
+        margin: 5px auto;
+    }
+    .row1 div img{
+        margin-bottom: 5px;
+        width: 100%;
     }
