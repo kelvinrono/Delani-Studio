@@ -53,9 +53,12 @@ margin:5% 0 5% 0 ;
     padding-top: 5px;
 
     }
-    .contact input{
-        opacity: 0.1;
-        border:2px solid white;
+    .contact input, textarea{
+        background-color:inherit;
+        border:.5px solid white;
+        color: rgb(173, 70, 70);
+    }
+    ::-webkit-input-placeholder{
         color: white;
     }
 
