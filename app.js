@@ -1,15 +1,15 @@
 $(document).ready(function(){
 
 
-    $(".hover").mousemove(function(e){
+    // $(".hover").mousemove(function(e){
 
-        var hovertext = $(this).attr('hovertext');
-        $("#hoverdiv").text(hovertext).show();
-        $("#hovertext").css('top', e.clientY+10).css('left', e.clientX+10);
+    //     var hovertext = $(this).attr('hovertext');
+    //     $("#hoverdiv").text(hovertext).show();
+    //     $("#hovertext").css('top', e.clientY+10).css('left', e.clientX+10);
 
-    }).mouseout(function(){
-        $("#hoverdiv").hide();
-    })
+    // }).mouseout(function(){
+    //     $("#hoverdiv").hide();
+    // })
 
     $(".development_img").click(function(){
         $(".devText").show();
@@ -25,7 +25,7 @@ $(document).ready(function(){
         $(".designText").show();
         $(this).hide()
     })
-
+ 
     $(".designText").click(function(){
         $(".design_img").show();
         $(this).hide()

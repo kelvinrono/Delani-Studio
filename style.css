@@ -33,7 +33,7 @@ margin:5% 0 5% 0 ;
 .service{
     background-image: url('./assets/backgrounds/s_image.jpg');
     background-size: cover;
-    height:30vh;
+    height:40vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -66,6 +66,9 @@ margin:5% 0 5% 0 ;
         border:.5px solid white;
         color: white
     }
+    .whatWeDo>h3{
+        text-align: center;
+    }
 
     .contact textarea{
         width: 400px;
@@ -89,11 +92,14 @@ margin:5% 0 5% 0 ;
     .row1 div img{
         margin-bottom: 5px;
         width: 100%;
+    
         
     }
     .row1 div img:hover{
        transform: scale(1.1);
        overflow: hidden;
+       opacity: .6;
+       transition: transform 1s;
     
     }
     .social{
